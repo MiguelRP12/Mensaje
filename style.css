@@ -1,0 +1,43 @@
+body::-webkit-scrollbar {
+    display: none; 
+} /* Ocultar la barra de desplazamiento vertical */
+
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: "Oldenburg", serif; /* Fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo de la tarjeta con transparencia */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno de la tarjeta */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de la tarjeta */
+    max-width: 600px; /* Ancho máximo de la tarjeta */
+    margin: auto; /* Centrar la tarjeta */
+}
+
+#inicio {
+    font-size: 1.5em; /* Tamaño de fuente para el inicio de la carta */
+    text-align: center; /* Centrar texto */
+}
+
+p {
+    opacity: 0; /* Inicialmente ocultar los párrafos */
+    transition: opacity 1s; /* Transición suave de opacidad */
+    margin-bottom: 15px; /* Espacio inferior entre párrafos */
+}
+
+#final {
+    font-size: 1.5em; /* Tamaño de fuente para el pie de la carta */
+    text-align: center; /* Centrar texto */
+}
+
+#gif {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
