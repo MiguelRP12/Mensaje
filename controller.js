@@ -4,11 +4,11 @@ function showText() {
         let delay;
         // Establecer tiempos de espera diferentes para párrafos según su longitud
         if (index === 0) delay = 0;
-        else if (index === 1) delay = 4000;
-        else if (index === 2) delay = 8000;
-        else if (index === 3) delay = 12000;
-        else if (index === 4) delay = 16000;
-        else delay = 20000;
+        else if (index === 1) delay = 2000;
+        else if (index === 2) delay = 5000;
+        else if (index === 3) delay = 20000;
+        else if (index === 4) delay = 35000;
+        else delay = 50000;
 
         setTimeout(() => {
             paragraph.style.opacity = 1; // Revelar el párrafo
